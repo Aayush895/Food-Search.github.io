@@ -26,7 +26,7 @@ searchBtn.addEventListener("click", function () {
           document.getElementById(
             `card-${temp}`
           ).innerHTML += `<div class="col-sm-12 col-md-6">
-                    <div class="card mt-5" style="width: 100%;">
+                    <div class="card mt-5 shadow-lg" style="width: 100%;">
                         <img src="${data.meals[i].strMealThumb}" class="card-img-top" alt="Food Pic">
                         <div class="card-body mb-3">
                           <h3 class="card-title text-center">${data.meals[i].strMeal}</h3>
@@ -45,7 +45,7 @@ searchBtn.addEventListener("click", function () {
           document.getElementById(
             `card-${temp}`
           ).innerHTML += `<div class="col-sm-12 col-md-6">
-                    <div class="card mt-5" style="width: 100%;">
+                    <div class="card mt-5 shadow-lg" style="width: 100%;">
                         <img src="${data.meals[i].strMealThumb}" class="card-img-top" alt="Food Pic">
                         <div class="card-body mb-3">
                           <h3 class="card-title text-center">${data.meals[i].strMeal}</h3>
