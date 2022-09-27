@@ -78,7 +78,7 @@ searchBtn.addEventListener("click", function () {
                         </div>
 
                         <div class="yt-link text-center mt-3">
-                            <a href="${data.meals[i].strYoutube}" class="text-center mt-3">Watch the YouTube Video</a>
+                            <a href="${data.meals[i].strYoutube}" target="_blank" class="text-center mt-3">Watch the YouTube Video</a>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
